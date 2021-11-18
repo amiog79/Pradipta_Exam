@@ -64,6 +64,7 @@ marquee{
 
     color: yellow;
     background: blue;
+    font-size: 30px;
 }
 
 img{
