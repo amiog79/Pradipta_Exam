@@ -19,7 +19,7 @@ h1{
 
 h2{
     color: #17D4FE;
-    font-size: 30px;
+    font-size: 20px;
     background: black;
 }
 
