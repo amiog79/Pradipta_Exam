@@ -71,7 +71,7 @@ img{
 }
 
 tr{
-    color: white;
+    color: black;
     background: blueviolet;
 }
 </style>
