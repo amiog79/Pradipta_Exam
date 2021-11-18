@@ -71,9 +71,15 @@ img{
 }
 
 tr{
-    color: black;
+    color: yellow;
     background: blueviolet;
 }
+    
+td{
+
+    background: grey;
+}
+    
 </style>
 
 
