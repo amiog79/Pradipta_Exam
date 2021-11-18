@@ -14,7 +14,7 @@ initial-scale=1.0">
     
 h1{
     color: red;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 h2{
@@ -245,7 +245,7 @@ location.href="Loginpage.htm";
 
 <div id="ContentLeft">
 <h2></h2><br>
-<img id="online_start" src="exam.png" width="1478px;" height="300px;">
+<img id="online_start" src="exam.png" width="1470px;" height="300px;">
 <br>
 <h2>Online Examination System(OES) is a Multiple Choice Questions(MCQ) based 
 examination system that provides an easy to use environment for both 
