@@ -14,12 +14,12 @@ initial-scale=1.0">
     
 h1{
     color: red;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 h2{
     color: #17D4FE;
-    font-size: 40px;
+    font-size: 30px;
     background: black;
 }
 
