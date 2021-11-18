@@ -30,7 +30,7 @@ h4{
 
 div{
     color: blue;
-    font-size: 35px;
+    font-size: 20px;
     background: lightgreen;
 }
 
