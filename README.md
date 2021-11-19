@@ -283,5 +283,3 @@ Test Conducters and Students appearing for Examination.</h2>
 <center style="font-size:20px;background:#17D4FE">Copyright © By Pradipta Ghosh.com 2019</center>
 
     
-</body>
-</html>
