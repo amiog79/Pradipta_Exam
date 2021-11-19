@@ -13,7 +13,7 @@ initial-scale=1.0">
     
 h1{
     color: red;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 h2{
@@ -37,7 +37,7 @@ button {
   background: yellow;
   box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2);
   transition: 1s;
-  width: 20%;
+  width: 70%;
   height:30%;
   box-sizing:60px;
   float:middle;
