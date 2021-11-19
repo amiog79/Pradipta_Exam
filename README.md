@@ -280,7 +280,7 @@ Test Conducters and Students appearing for Examination.</h2>
 
 <br></br>
 
-<div id="showtime" style="background:navy; width: 40%; text-align:center;"></div>
+<div id="showtime" style="background:navy; width: 50%; text-align:center;"></div>
 </section>
 </div>
 
@@ -288,7 +288,7 @@ Test Conducters and Students appearing for Examination.</h2>
 
 <a href="SUBMITTED.html"><button>SUBMIT</button></a>
 
-<div id="Footer" style="background: black; width: 35%; text-align: center;">Website Made by - Pradipta Ghosh</div>
+<div id="Footer" style="background: black; width: 45%; text-align: center;">Website Made by - Pradipta Ghosh</div>
 </div>
 
 
