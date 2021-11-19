@@ -274,7 +274,6 @@ Test Conducters and Students appearing for Examination.</h2>
 
 </div>
 
-<br></br>
 
 <div id="Footer">Made by - Pradipta Ghosh</div>
 
