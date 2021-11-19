@@ -1,5 +1,4 @@
 # Pradipta_Exam
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UFT-8">
@@ -247,7 +246,7 @@ location.href="Loginpage.htm";
 <ul>
 
 </ul>
-</div>
+
 
 
 
@@ -278,9 +277,9 @@ Test Conducters and Students appearing for Examination.</h2>
 
 </table>    
 
-<br></br>
+    
 
-<div id="showtime" style="background:navy; width: 50%; text-align:center;"></div>
+<div id="showtime" style="background:navy; width: 60%; text-align:center;"></div>
 </section>
 </div>
 
@@ -288,8 +287,8 @@ Test Conducters and Students appearing for Examination.</h2>
 
 <a href="SUBMITTED.html"><button>SUBMIT</button></a>
 
-<div id="Footer" style="background: black; width: 45%; text-align: center;">Website Made by - Pradipta Ghosh</div>
-</div>
+<div id="Footer" style="background: black; width: 60%; text-align: center;">Website Made by - Pradipta Ghosh</div>
+
 
 
 
@@ -297,6 +296,5 @@ Test Conducters and Students appearing for Examination.</h2>
 <center style= "color:black;font-size:16px;background:#17D4FE">Copyright © By Pradipta Ghosh.com 2019</center>
 
 
-</body>
-</html>
+
     
