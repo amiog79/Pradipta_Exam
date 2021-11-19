@@ -1,5 +1,5 @@
 # Pradipta_Exam
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UFT-8">
@@ -266,7 +266,7 @@ Test Conducters and Students appearing for Examination.</h2>
 
 </table>    
 
-<br></br>
+    
 
 <div id="showtime" ></div>
 </section>
