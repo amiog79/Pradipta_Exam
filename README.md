@@ -1,5 +1,5 @@
 # Pradipta_Exam
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UFT-8">
@@ -14,7 +14,7 @@ initial-scale=1.0">
     
 h1{
     color: red;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 h2{
@@ -29,8 +29,8 @@ h4{
 }
 
 div{
-    color: blue;
-    font-size: 20px;
+    color: yellow;
+    font-size: 30px;
     background: lightgreen;
 }
 
@@ -38,11 +38,13 @@ button {
   background: yellow;
   box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2);
   transition: 1s;
-  width: 50%;
+  width: 20%;
   height:30%;
   box-sizing:60px;
   float:middle;
   font-size: 50px;
+  text-align: center;
+  float:;
 }
 
 button:hover {
@@ -64,7 +66,6 @@ marquee{
 
     color: yellow;
     background: blue;
-    font-size: 30px;
 }
 
 img{
@@ -75,12 +76,12 @@ tr{
     color: yellow;
     background: blueviolet;
 }
-    
+
 td{
 
     background: blueviolet;
 }
-    
+
 </style>
 
 
@@ -96,8 +97,11 @@ var questions = [
 
     [ "What is the length of Java datatype int ?", "32 bit", "16 bit", "None", "C" ],
 
-    [ "What is the default value of Java datatype boolean?","true","false","0","A"]
+    [ "What is the default value of Java datatype boolean?","true","false","0", "A"],
+
+    [ "What is the default value of Java datatype boolean?","true","false","0", "A"],
 ];
+
 function _(x){
     return document.getElementById(x);
 }
@@ -114,7 +118,7 @@ function renderQuestion(){
         test.innerHTML = "<h3>You got "+correct+" correct of "+questions.length+" questions</h3>";
         test.innerHTML += "<h3> Your Grade : "+showscore +"% </h3>";
         test.innerHTML +="<h4>Exam Finished in Time:" + sec+" Seconds</h4>";
-        test.innerHTML += "<button onclick='EndExam()'>End the Exam</button>";
+        //test.innerHTML += "<button onclick='EndExam()'>SUBMIT</button>";
         _("test_status").innerHTML = "<h3>Test Completed</h3>";
         pos = 0;
         correct = 0;
@@ -139,10 +143,12 @@ function renderQuestion(){
     test.innerHTML += "<input type='radio' name='choices' value='A'> "+chA+"<br>";
     test.innerHTML += "<input type='radio' name='choices' value='B'> "+chB+"<br>";
     test.innerHTML += "<input type='radio' name='choices' value='C'> "+chC+"<br><br>";
+
     test.innerHTML += "<button onclick='checkAnswer()'>Next</button><br><br>";
 
 
 }
+
 function checkAnswer(){
     choices = document.getElementsByName("choices");
     choice=-1;
@@ -171,7 +177,7 @@ location.href="Loginpage.htm";
     var tim;
        var showscore=Math.round(correct/questions.length*100);
         var min = 1;
-        var sec = 30;
+        var sec = 60;
         var f = new Date();
         function starttime() {
             showtime();
@@ -195,11 +201,12 @@ location.href="Loginpage.htm";
             _("test_status").innerHTML = "Test Completed";
             test.innerHTML = "<h2>You got "+correct+" of "+questions.length+" questions correct</h2>";
             test.innerHTML = "<h2>You got "+showscore +"% out of "+questions.length+"</h2>";
-            test.innerHTML = "<button onclick='EndExam()'>End the Exam</button>";
+            //test.innerHTML = "<button onclick='EndExam()'>SUBMIT</button>";
+            
             pos = 0;
             correct = 0;
             clearTimeout(tim);
-            document.getElementById("endtime").innerHTML = "You Finished exam at Time is :"+min+" Minutes :" + sec+" Seconds";
+            document.getElementById("endtime").innerHTML = "You Finished exam at Time is :" + min+" Minutes :" + sec+" Seconds";
             document.getElementById("starttime").style.display += 'none';
             document.getElementById("showtime").style.display += 'none';
             //document.getElementById("showtime").style.display += 'block';
@@ -210,7 +217,7 @@ location.href="Loginpage.htm";
                     else {
                         min = 0;
                         sec = 60;
-                        document.getElementById("showtime").innerHTML = "Your Left Time is :" + min + " Minutes :" + sec + " Seconds";
+                        document.getElementById("showtime").innerHTML = "Your Left Time is : " + min + " Minutes : " + sec + " Seconds ";
                         tim = setTimeout("showtime()", 1000);
                     }
                 }
@@ -221,13 +228,17 @@ location.href="Loginpage.htm";
 
 
 
+
 </script>
+
 
 
 
 </head>
 
 <body onload="starttime()" >
+
+
 
 <div id="Holder">
 <div id="Header"></div>
@@ -236,6 +247,7 @@ location.href="Loginpage.htm";
 <ul>
 
 </ul>
+</div>
 
 
 
@@ -246,7 +258,7 @@ location.href="Loginpage.htm";
 
 <div id="ContentLeft">
 <h2></h2><br>
-<img id="online_start" src="exam.png" width="490px;" height="200px;">
+<img id="online_start" src="exam.png" width="1000px;" height="300px;">
 <br>
 <h2>Online Examination System(OES) is a Multiple Choice Questions(MCQ) based 
 examination system that provides an easy to use environment for both 
@@ -266,19 +278,25 @@ Test Conducters and Students appearing for Examination.</h2>
 
 </table>    
 
-    
+<br></br>
 
-<div id="showtime" ></div>
+<div id="showtime" style="background:navy; width: 40%; text-align:center;"></div>
 </section>
 </div>
 
 </div>
 
+<a href="SUBMITTED.html"><button>SUBMIT</button></a>
 
-<div id="Footer">Made by - Pradipta Ghosh</div>
+<div id="Footer" style="background: black; width: 35%; text-align: center;">Website Made by - Pradipta Ghosh</div>
+</div>
 
-    
-    <center style="font-size:16px;background:red"><u><a style="color:white;">Privacy Policy</a></u> <u><a style="color:white">Terms & Conditions</a></u></center>
-<center style="color:black;font-size:16px;background:#17D4FE">Copyright © By Pradipta Ghosh.com 2019</center>
 
+
+ <center style="font-size:16px;background:red"><u><a style="color:white;">Privacy Policy</a></u> <u><a style="color:white">Terms & Conditions</a></u></center>
+<center style= "color:black;font-size:16px;background:#17D4FE">Copyright © By Pradipta Ghosh.com 2019</center>
+
+
+</body>
+</html>
     
