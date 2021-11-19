@@ -13,7 +13,7 @@ initial-scale=1.0">
     
 h1{
     color: red;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 h2{
@@ -279,7 +279,7 @@ Test Conducters and Students appearing for Examination.</h2>
 
     
 
-<div id="showtime" style="background:navy; width: 75%;"></div>
+<div id="showtime" style="background:navy; width: 100%;"></div>
 </section>
 </div>
 
@@ -287,7 +287,7 @@ Test Conducters and Students appearing for Examination.</h2>
 
 <a href="SUBMITTED.html"><button>SUBMIT</button></a>
 
-<div id="Footer" style="background: black; width: 75%;">Website Made by - Pradipta Ghosh</div>
+<div id="Footer" style="background: black; width: 100%;">Website Made by - Pradipta Ghosh</div>
 
 
 
