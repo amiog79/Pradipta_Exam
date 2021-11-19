@@ -277,7 +277,7 @@ Test Conducters and Students appearing for Examination.</h2>
 <br></br>
 
 <div id="Footer">Made by - Pradipta Ghosh</div>
-</div>
+
     
     <center style="font-size:20px;background:red"><u><a style="color:white;">Privacy Policy</a></u> <u><a style="color:white">Terms & Conditions</a></u></center>
 <center style="font-size:20px;background:#17D4FE">Copyright © By Pradipta Ghosh.com 2019</center>
