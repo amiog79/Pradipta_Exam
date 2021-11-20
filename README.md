@@ -29,7 +29,7 @@ h4{
 
 div{
     color: yellow;
-    font-size: 30px;
+    font-size: 25px;
     background: lightgreen;
 }
 
