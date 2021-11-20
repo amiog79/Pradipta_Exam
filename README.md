@@ -88,7 +88,7 @@ audio{
     
 video{
 
-    width: 350px; height: 200px;
+    width: 320px; height: 200px;
     background: blue; 
 }
     
