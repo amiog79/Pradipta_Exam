@@ -341,7 +341,7 @@ Test Conducters and Students appearing for Examination.</h2>
 
 <div id="Footer" style="background: black; width: 100%;">Website Made by - Pradipta Ghosh</div>
 
-<h2 style="font-size: 35px;">ধুমগড়ের পিশাচ রহস্য</h2>
+<h2 style="font-size: 30px;">ধুমগড়ের পিশাচ রহস্য</h2>
 
 <!--AUDIO TAG-->
 
