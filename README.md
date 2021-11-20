@@ -547,6 +547,14 @@ Test Conducters and Students appearing for Examination.</h2>
 <!--END WEATHER APP-->
    
 
+ <!--VIDEO-->
+<video width="950px" height="450px" controls="">
+  <source src="DUI_PRITHIBI.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+<!--END VIDEO-->
+    
 
  <center style="font-size:16px;background:red"><u><a style="color:white;">Privacy Policy</a></u> <u><a style="color:white">Terms & Conditions</a></u></center>
 <center style= "color:black;font-size:16px;background:#17D4FE">Copyright © By Pradipta Ghosh.com 2019</center>
