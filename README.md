@@ -84,7 +84,14 @@ td{
     
 audio{
     background: blue;
-}    
+}
+    
+video{
+
+    width: 400px; height: 260px;
+    background: blue; 
+}
+    
 
 </style>
 
@@ -548,7 +555,7 @@ Test Conducters and Students appearing for Examination.</h2>
    
 
  <!--VIDEO-->
-<video width="500px" height="260px" controls="">
+<video width="400px" height="260px" controls="">
   <source src="DUI_PRITHIBI.mp4" type="video/mp4">
   <source src="mov_bbb.ogg" type="video/ogg">
   Your browser does not support HTML video.
