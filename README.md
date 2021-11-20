@@ -355,7 +355,7 @@ Test Conducters and Students appearing for Examination.</h2>
     
  <!--LIVE WEATHER APP-->
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
