@@ -548,7 +548,7 @@ Test Conducters and Students appearing for Examination.</h2>
    
 
  <!--VIDEO-->
-<video width="950px" height="450px" controls="">
+<video controls="">
   <source src="DUI_PRITHIBI.mp4" type="video/mp4">
   <source src="mov_bbb.ogg" type="video/ogg">
   Your browser does not support HTML video.
