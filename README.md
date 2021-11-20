@@ -552,10 +552,8 @@ Test Conducters and Students appearing for Examination.</h2>
 
 
 <!--END WEATHER APP-->
-
- 
- <h2>DUI PRITHIBI MOVIE TITLE SONG</h2>
-   
+  
+ <h2 style="font-size:18px;">DUI PRITHIBI MOVIE TITLE SONG</h2>   
 
  <!--VIDEO-->
 <video width="400px" height="260px" controls="">
