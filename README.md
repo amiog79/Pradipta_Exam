@@ -65,6 +65,7 @@ marquee{
 
     color: yellow;
     background: blue;
+    font-size: 20px;
 }
 
 img{
@@ -98,7 +99,10 @@ var questions = [
 
     [ "What is the default value of Java datatype boolean?","true","false","0", "A"],
 
-    [ "What is the default value of Java datatype boolean?","true","false","0", "A"],
+    [ "Which of the following is not an example of DBMS?", "MySQL","Microsoft Acess","Google", "C"],
+
+    [ "How many children does a binary tree have?", "2","any number of children","0 or 1 or 2", "C"],
+
 ];
 
 function _(x){
@@ -257,7 +261,7 @@ location.href="Loginpage.htm";
 
 <div id="ContentLeft">
 <h2></h2><br>
-<img id="online_start" src="exam.png" width="1000px;" height="300px;">
+<img id="online_start" src="exam.png" width="1000px;" height="200px;">
 <br>
 <h2>Online Examination System(OES) is a Multiple Choice Questions(MCQ) based 
 examination system that provides an easy to use environment for both 
