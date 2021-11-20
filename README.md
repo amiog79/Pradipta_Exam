@@ -65,7 +65,7 @@ marquee{
 
     color: yellow;
     background: blue;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 img{
@@ -260,10 +260,10 @@ location.href="Loginpage.htm";
 </div>
 
 <div id="ContentLeft">
-<h2></h2><br>
+
 <img id="online_start" src="exam.png" width="1000px;" height="200px;">
 <br>
-<h2>Online Examination System(OES) is a Multiple Choice Questions(MCQ) based 
+<h2 style="font-size:20px;">>Online Examination System(OES) is a Multiple Choice Questions(MCQ) based 
 examination system that provides an easy to use environment for both 
 Test Conducters and Students appearing for Examination.</h2>
 </div>
