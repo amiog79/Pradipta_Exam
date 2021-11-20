@@ -467,10 +467,10 @@ Test Conducters and Students appearing for Examination.</h2>
 </head>
 <body>
   <div class="app-wrap">
-    <header>
+    <header style="background:violet;">
       <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." style="background:yellow;"/>
     </header>
-    <main>
+    <main style="background:violet;">
       <section class="location" style="background:blue;">
         <div class="city" style="background:blue;">New York, US</div>
         <div class="date" style="background:black;"></div>
