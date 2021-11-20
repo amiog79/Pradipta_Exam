@@ -252,7 +252,7 @@ location.href="Loginpage.htm";
 </ul>
 
 <!--DIGITALCOLOR CLOCK-->
-<!DOCTYPE html>
+
 <!-- Created By CodingNepal -->
 <html lang="en" dir="ltr">
    <head>
