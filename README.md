@@ -318,9 +318,9 @@ location.href="Loginpage.htm";
 
 <img id="online_start" src="exam.png">
 <br>
-<h2 style="font-size:20px;">>Online Examination System(OES) is a Multiple Choice Questions(MCQ) based 
+<h2 style="font-size:20px;"> Online Examination System(OES) is a Multiple Choice Questions(MCQ) based 
 examination system that provides an easy to use environment for both 
-Test Conducters and Students appearing for Examination.</h2>
+Test Conducters and Students appearing for Examination. </h2>
 </div>
  <div id="ContentRight">
 <section class="loginform_cf">
